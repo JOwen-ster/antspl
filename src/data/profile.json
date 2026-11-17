@@ -1,0 +1,69 @@
+{
+	"name": "Ant",
+	"tagline": "Top Splatoon 3 Player",
+	"favicon": "favicon.png",
+	"portrait": {
+		"image": "aura.jpg",
+		"alt": "Ant’s black-and-white illustrated avatar"
+	},
+	"ink": "inksplatter.svg",
+	"weapons": [
+		{
+			"name": "Blaster",
+			"image": "blaster.avif",
+			"xp": 3033
+		},
+		{
+			"name": "Mint",
+			"image": "mint.avif",
+			"xp": 3058
+		}
+	],
+	"socials": [
+		{
+			"label": "sendou",
+			"image": "sendou.png",
+			"url": "https://sendou.ink/u/pou"
+		},
+		{
+			"label": "discord",
+			"image": "discord.png",
+			"username": "no1ant"
+		},
+		{
+			"label": "twitter",
+			"image": "twitter.png",
+			"url": "https://x.com/pouley_no1"
+		}
+	],
+	"bio": {
+		"heading": "Bio",
+		"lines": [
+			"Aggro blaster / sword free agent.",
+			"Playing since Splatoon 2 - 2019."
+		]
+	},
+	"results": {
+		"heading": "Results",
+		"entries": [
+			"🥈In The Zone 49",
+			"🥉 Super Jump 7",
+			"3-1 Grey / Noah / Yeti / Mino",
+			"2-0 MilkyWay",
+			"2-0 Sena / Goyame / Suemaru / Rifu"
+		]
+	},
+	"clips": {
+		"heading": "Top Clips",
+		"entries": [
+			{
+				"title": "Clip 1",
+				"url": "https://x.com/pouley_no1/status/2065232355447472377"
+			},
+			{
+				"title": "Clip 2",
+				"url": "https://x.com/pouley_no1/status/2073124882930360379"
+			}
+		]
+	}
+}

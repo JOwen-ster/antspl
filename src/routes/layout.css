@@ -1,1 +1,30 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@font-face {
+  font-family: Blitz;
+  src: url("../../fonts/BlitzMainSpl.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Blitz;
+  src: url("../../fonts/BlitzBoldSpl.otf") format("opentype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@theme static {
+  --font-blitz: Blitz, system-ui, sans-serif;
+  --color-paper: #fcfcfc;
+  --color-ink: #111;
+  --color-splat-blue: #0075ff;
+  --color-muted: #707070;
+  --color-clip: #d9d9d9;
+}
+
+@layer base {
+  body {
+    @apply bg-paper font-blitz text-ink;
+  }
+}
