@@ -1,11 +1,7 @@
 <script lang="ts">
-	import { asset } from '$app/paths';
 	import { onDestroy, onMount } from 'svelte';
+	import { profileAsset } from '#lib';
 	import profile from '../data/profile.json';
-
-	function profileAsset(filename: string) {
-		return asset(filename as Parameters<typeof asset>[0]);
-	}
 
 	const ink = profileAsset(profile.ink);
 	const xPostUrl = /^https:\/\/(?:www\.)?(?:x|twitter)\.com\/[a-z0-9_]+\/status\/\d+(?:[/?#]|$)/i;
